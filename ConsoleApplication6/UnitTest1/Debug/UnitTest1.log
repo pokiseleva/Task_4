@@ -1,0 +1,14 @@
+﻿  UnitTest1.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(66): error C2338: Test writer must define specialization of ToString<const Q& q> for your class class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Microsoft::VisualStudio::CppUnitTestFramework::ToString<class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >>(const class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &).
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(134): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<T>(const Q &)"
+          with
+          [
+              T=std::vector<std::string,std::allocator<std::string>>,
+              Q=std::vector<std::string,std::allocator<std::string>>
+          ]
+  c:\users\polina\source\repos\consoleapplication6\unittest1\unittest1.cpp(17): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<std::vector<std::string,std::allocator<_Ty>>>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)"
+          with
+          [
+              _Ty=std::string,
+              T=std::vector<std::string,std::allocator<std::string>>
+          ]
